@@ -1,6 +1,6 @@
 # 🤖 TaskMaster AI
 
-API REST inteligente para gestión de tareas con procesamiento de lenguaje natural powered by Gemini AI.
+API REST inteligente y muy simple para gestión de tareas con procesamiento de lenguaje natural powered by Gemini AI.
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.121-green.svg)](https://fastapi.tiangolo.com/)
