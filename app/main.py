@@ -15,6 +15,7 @@ app = FastAPI(
 # REGISTRAR ROUTERS
 # ==========================================
 app.include_router(auth.router)
+app.include_router(tasks.router)
 
 
 @app.get("/")
