@@ -2,10 +2,9 @@
 
 API REST inteligente para gestión de tareas con procesamiento de lenguaje natural powered by Gemini AI.
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.121-green.svg)](https://fastapi.tiangolo.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🌟 Features
 
@@ -16,7 +15,7 @@ API REST inteligente para gestión de tareas con procesamiento de lenguaje natur
 - 🔒 **Seguridad** - Passwords hasheados con bcrypt, tokens JWT
 - 📚 **Documentación automática** - Swagger UI interactiva
 - 🧪 **Testing automatizado** - Suite de tests con pytest
-- ☁️ **Cloud-ready** - Deployado en Render con PostgreSQL
+<!-- - ☁️ **Cloud-ready** - Deployado en Render con PostgreSQL 
 
 ## 🚀 Demo en vivo
 
@@ -24,6 +23,8 @@ API REST inteligente para gestión de tareas con procesamiento de lenguaje natur
 📖 **Documentación**: [https://taskmaster-ai-xxxx.onrender.com/docs](https://taskmaster-ai-xxxx.onrender.com/docs)
 
 > **Nota**: Reemplaza `xxxx` con tu URL real de Render
+
+-->
 
 ## 📸 Screenshots
 
@@ -96,12 +97,12 @@ taskmaster-ai/
 **Testing & Deploy**:
 - **pytest** - Testing automatizado
 - **Render** - Hosting y CI/CD
-- **Render PostgreSQL** - Base de datos en la nube
+<!-- - **Render PostgreSQL** - Base de datos en la nube -->
 
 ## 🛠️ Instalación local
 
 ### Requisitos previos
-- Python 3.11+
+- Python 3.13+
 - PostgreSQL 15+
 - API Key de Gemini ([obtener aquí](https://aistudio.google.com/app/apikey))
 
@@ -109,7 +110,7 @@ taskmaster-ai/
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/TU-USUARIO/taskmaster-ai.git
+git clone https://github.com/alokenveo/taskmaster-ai.git
 cd taskmaster-ai
 ```
 
@@ -341,38 +342,21 @@ Las contribuciones son bienvenidas. Por favor:
 4. Push a la branch (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Ver archivo `LICENSE` para más detalles.
-
 ## 👤 Autor
 
-**Tu Nombre**
+**Alfredo M. Okenve**
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [tu-linkedin](https://linkedin.com/in/tu-perfil)
-- Email: tu-email@example.com
+- GitHub: [@alokenveo](https://github.com/alokenveo)
+- LinkedIn: [Mi Linkedin](https://linkedin.com/in/alfredo-mituy-okenve-obiang-72180124b)
+- Email: fredymituy@gmail.com
 
 ## 🙏 Agradecimientos
 
 - [FastAPI](https://fastapi.tiangolo.com/) - Framework increíble
 - [Google Gemini](https://ai.google.dev/) - Modelo de IA potente y accesible
-- [Render](https://render.com/) - Hosting simple y eficiente
+<!-- - [Render](https://render.com/) - Hosting simple y eficiente -->
 
 ---
 
 ⭐️ Si te gustó este proyecto, dale una estrella en GitHub!
 ```
-
----
-
-## 🎨 Personalizaciones necesarias
-
-**Reemplaza estos valores** con los tuyos:
-
-1. **URL de Render**: Cambia `https://taskmaster-ai-xxxx.onrender.com` por tu URL real
-2. **GitHub**: Cambia `TU-USUARIO` por tu usuario de GitHub
-3. **Autor**: Añade tu nombre, LinkedIn, email
-4. **Badges**: Los badges se actualizarán automáticamente cuando subas el README
-
----
