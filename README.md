@@ -94,10 +94,10 @@ taskmaster-ai/
 - Extracción de datos estructurados desde texto
 - Sistema de recomendaciones
 
-**Testing & Deploy**:
+**Testing <!-- & Deploy -->**:
 - **pytest** - Testing automatizado
-- **Render** - Hosting y CI/CD
-<!-- - **Render PostgreSQL** - Base de datos en la nube -->
+<!-- - **Render** - Hosting y CI/CD
+ - **Render PostgreSQL** - Base de datos en la nube -->
 
 ## 🛠️ Instalación local
 
@@ -265,6 +265,7 @@ curl -X GET "http://localhost:8000/tasks?estado=pending&prioridad=urgent" \
    }
 ```
 
+<!--
 ## 🚀 Deploy en Render
 
 ### Desde GitHub
@@ -281,6 +282,7 @@ Render configura automáticamente:
 - ✅ `DATABASE_URL` - PostgreSQL connection string
 - ✅ `SECRET_KEY` - Generado automáticamente
 - ⚠️ `GEMINI_API_KEY` - **Debes añadirlo manualmente**
+-->
 
 ## 📊 Modelo de datos
 
@@ -321,7 +323,7 @@ Render configura automáticamente:
 
 ## 📈 Roadmap
 
-Mejoras futuras planeadas:
+Mejoras futuras posibles:
 
 - [ ] **Recordatorios automáticos** - Emails/notificaciones antes de deadlines
 - [ ] **Colaboración** - Compartir tareas entre usuarios
